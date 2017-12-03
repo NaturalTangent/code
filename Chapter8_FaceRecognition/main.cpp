@@ -320,7 +320,7 @@ void onMouse(int event, int x, int y, int, void*)
 // Main loop that runs forever, until the user hits Escape to quit.
 void recognizeAndTrainUsingWebcam(VideoCapture &videoCapture, CascadeClassifier &faceCascade, CascadeClassifier &eyeCascade1, CascadeClassifier &eyeCascade2)
 {
-    Ptr<FaceRecognizer> model;
+    Ptr<BasicFaceRecognizer> model;
     vector<Mat> preprocessedFaces;
     vector<int> faceLabels;
     Mat old_prepreprocessedFace;

@@ -44,7 +44,7 @@
 #include <vector>
 #include <string>
 #include <iostream>            // for printing streams in C++
-//#include <stdarg.h>        // for variable-length args in C
+#include <stdarg.h>        // for variable-length args in C
 //#include <sstream>        // for printing floats in C++
 //#include <fstream>        // for opening files in C++
 
